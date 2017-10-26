@@ -1,40 +1,41 @@
 {
-  "name": "copy-current-file-path",
-  "displayName": "copy current file path",
-  "description": "Copy the current file's path relative to the workspace",
-  "version": "0.0.1",
-  "publisher": "florinionce",
-  "engines": {
-    "vscode": "^1.12.0"
-  },
-  "categories": [
-    "Other"
-  ],
-  "activationEvents": [
-    "onCommand:extension.copyCurrentPath"
-  ],
-  "main": "./extension",
-  "contributes": {
-    "commands": [
-      {
-        "command": "extension.copyCurrentPath",
-        "title": "Copy current path"
-      }
-    ]
-  },
-  "scripts": {
-    "postinstall": "node ./node_modules/vscode/bin/install",
-    "test": "node ./node_modules/vscode/bin/test"
-  },
-  "devDependencies": {
-    "typescript": "^2.0.3",
-    "vscode": "^1.0.0",
-    "mocha": "^2.3.3",
-    "eslint": "^3.6.0",
-    "@types/node": "^6.0.40",
-    "@types/mocha": "^2.2.32"
-  },
-  "dependencies": {
-    "copy-paste": "^1.3.0"
-  }
+    "name": "copy-current-file-path",
+    "displayName": "copy-current-file-path",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "florinionce",
+    "engines": {
+        "vscode": "^1.17.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "onCommand:extension.copyCurrentPath"
+    ],
+    "main": "./extension",
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.copyCurrentPath",
+                "title": "Copy current path"
+            }
+        ]
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "typescript": "^2.5.2",
+        "vscode": "^1.1.5",
+        "mocha": "^3.5.0",
+        "eslint": "^4.6.1",
+        "@types/node": "^7.0.0",
+        "@types/mocha": "^2.2.42"
+    },
+    "dependencies": {
+        "copy-paste": "^1.3.0",
+        "vscode": "^1.1.5"
+    }
 }

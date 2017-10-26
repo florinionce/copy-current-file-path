@@ -4,7 +4,7 @@
     "description": "Pathify is an extension for Visual Studio Code that copies relative path of the current opened file into the clipboard.",
     "icon": "images/icon.png",
     "version": "0.0.2",
-    "publisher": "florinionce",
+    "publisher": "ionceflorin",
     "engines": {
         "vscode": "^1.17.0"
     },

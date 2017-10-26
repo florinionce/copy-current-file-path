@@ -2,6 +2,7 @@
     "name": "copy-current-file-path",
     "displayName": "copy-current-file-path",
     "description": "",
+    "icon": "images/icon.png",
     "version": "0.0.1",
     "publisher": "florinionce",
     "engines": {

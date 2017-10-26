@@ -10,3 +10,4 @@ Pathify is an extension for Visual Studio Code that copies relative path of the 
 - [Florin Ionce ](http://www.github.com/florinionce)
 - [ Andrei Rat ](http://www.github.com/andreirat)
 - [Robi Kovacs](http://www.github.com/robikovacs)
+- [Mirona Filip](https://github.com/Mironeasca)

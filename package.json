@@ -19,7 +19,8 @@
         "commands": [
             {
                 "command": "extension.copyCurrentPath",
-                "title": "Copy current path"
+                "title": "Copy current path",
+                "key": "ctrl+shift+space"
             }
         ]
     },

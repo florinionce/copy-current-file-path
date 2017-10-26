@@ -6,7 +6,7 @@ function activate(context) {
     statusBarItem = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Left, 100);
     statusBarItem.command = 'extension.copyCurrentPath';
     statusBarItem.tooltip = 'Click to copy path';
-    statusBarItem.text = "$(megaphone) Pathify"
+    statusBarItem.text = "$(clippy) Pathify"
     statusBarItem.show();
     var disposable = vscode.commands.registerCommand('extension.copyCurrentPath', function () {
         var editor = vscode.window.activeTextEditor;
@@ -16,11 +16,11 @@ function activate(context) {
             }
             filePath = editor.document.fileName.replace(vscode.workspace.rootPath + '/', '');
             console.log(filePath)
-            statusBarItem.text = "$(megaphone)"+filePath;
+            statusBarItem.text = "$(checklist)   "+filePath;
             vscode.window.showInformationMessage("Path "+filePath + " copied to clipboard");
             ncp.copy(filePath, function () {});
             setTimeout(function(){
-                statusBarItem.text = "$(megaphone) Pathify";
+                statusBarItem.text = "$(clippy) Pathify";
             },5000)
         });
         context.subscriptions.push(disposable);

@@ -19,7 +19,6 @@ function activate(context) {
 
         filePath = editor.document.fileName.replace(vscode.workspace.rootPath + '/', '');
         statusBarItem.text = "$(checklist)   "+filePath;
-        vscode.window.showInformationMessage("Path "+filePath + " copied to clipboard");
 
         ncp.copy(filePath, function () {});
 

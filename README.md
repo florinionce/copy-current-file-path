@@ -1,6 +1,21 @@
 # Pathify
 
-Pathify is an extension for Visual Studio Code that copies relative path of the current opened file into the clipboard. 
+Pathify is an extension for Visual Studio Code that copies relative path of the current opened file into the clipboard.
+
+# Configuration
+
+## Toggle the alerts when a path is copied
+
+- change the settings in `settings.json`
+```
+"pathify.showInformationMessageOnCopy": [true|false]
+```
+The default value is true
+
+- change if from the settings interface
+    - Open `Code` -> `Preferences` -> `Settings`
+    - Go to `Extensions` -> `Pathify`
+    - Click on `Toggle the alerts when a path is copied`
 
 # Demo
 

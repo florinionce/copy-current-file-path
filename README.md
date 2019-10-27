@@ -25,7 +25,7 @@ The default value is true
 
 ## Configuration
 
-![Demo configuration](http://i.imgur.com/fRp5GhTh.gif)
+![Demo configuration](https://i.imgur.com/fRp5GhTh.gif)
 
 # Contributors
 - [Florin Ionce ](http://www.github.com/florinionce)

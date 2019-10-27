@@ -19,7 +19,13 @@ The default value is true
 
 # Demo
 
-![Demo](https://d26dzxoao6i3hh.cloudfront.net/items/1l0E3k2o3e2r3B0c0N3p/Screen%20Recording%202017-10-26%20at%2011.02%20PM.gif)
+## Basic usage
+
+![Demo basic usage](https://i.imgur.com/9n34AIt.gif)
+
+## Configuration
+
+![Demo configuration](http://i.imgur.com/fRp5GhTh.gif)
 
 # Contributors
 - [Florin Ionce ](http://www.github.com/florinionce)

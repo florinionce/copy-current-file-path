@@ -28,7 +28,8 @@ The default value is true
 ![Demo configuration](https://i.imgur.com/fRp5GhTh.gif)
 
 # Contributors
-- [Florin Ionce ](http://www.github.com/florinionce)
-- [ Andrei Rat ](http://www.github.com/andreirat)
-- [Robi Kovacs](http://www.github.com/robikovacs)
+- [Florin Ionce ](https://github.com/florinionce)
+- [ Andrei Rat ](https://github.com/andreirat)
+- [Robi Kovacs](https://github.com/robikovacs)
 - [Mirona Filip](https://github.com/Mironeasca)
+- [Matthew Bennett-Lovesey](https://github.com/undecided)

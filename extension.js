@@ -1,5 +1,4 @@
 const vscode = require('vscode');
-const ncp = require('copy-paste');
 
 function activate(context) {
     var filePath = "";
@@ -22,8 +21,7 @@ function activate(context) {
         if (vscode.workspace.getConfiguration('pathify').showInformationMessageOnCopy) {
             vscode.window.showInformationMessage("Path "+filePath + " copied to clipboard");
         }
-
-        ncp.copy(filePath, function () {});
+        vscode.env.clipboard.writeText(filePath);
 
         setTimeout(function(){
             statusBarItem.text = "$(clippy) Pathify";

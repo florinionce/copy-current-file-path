@@ -16,3 +16,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Add the ability to change the separator
     - by default is `/`, changing it in the settings to `.` for example will result in `app.controllers.application_controller.rb` being copied to the clipboard
 - Fix the plugin not working when running in a container using `code tunnel` by using vscode's built-in clipboard writeText method and remove the `copy-paste` dependency - thanks to [@undecided](https://github.com/undecided)
+
+## [0.0.5]
+- Update changelog

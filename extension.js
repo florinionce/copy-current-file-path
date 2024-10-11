@@ -1,4 +1,5 @@
 const vscode = require('vscode');
+const path = require('path');
 
 function activate(context) {
     var filePath = "";
@@ -16,9 +17,16 @@ function activate(context) {
             return;
         }
 
+        const config = vscode.workspace.getConfiguration('pathify');
+
         filePath = editor.document.fileName.replace(vscode.workspace.rootPath + '/', '');
         statusBarItem.text = "$(checklist)   "+filePath;
-        if (vscode.workspace.getConfiguration('pathify').showInformationMessageOnCopy) {
+
+        var separator = config.separator;
+        filePath = filePath.split(path.sep).join(separator);
+
+
+        if (config.showInformationMessageOnCopy) {
             vscode.window.showInformationMessage("Path "+filePath + " copied to clipboard");
         }
         vscode.env.clipboard.writeText(filePath);
